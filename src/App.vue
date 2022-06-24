@@ -6,7 +6,7 @@ import MovieSearcher from "./components/MovieSearcher.vue";
 
 <template>
   <span class="title-text">Movie Searcher</span>
-  <MovieSearcher msg="Hello Vue 3 + TypeScript + Vite" />
+  <MovieSearcher />
 </template>
 
 <style>
@@ -17,6 +17,10 @@ import MovieSearcher from "./components/MovieSearcher.vue";
   text-align: center;
   color: #2c3e50;
   margin-top: 20px;
+}
+
+body {
+  background-color: #48484f;
 }
 .site-icon {
   width: 150px;
