@@ -53,20 +53,25 @@
         >
       </n-grid-item>
       <n-grid-item class="gird-item">
-        <n-button
-          class="search-button"
-          type="info"
-          :disabled="data.loading"
-          @click="getRandomMovies"
-        >
-          I'm feeling lucky</n-button
-        >
+        <n-tooltip placement="top-start" trigger="hover">
+          <template #trigger>
+            <n-button
+              class="search-button"
+              type="info"
+              :disabled="data.loading"
+              @click="getRandomMovies"
+            >
+              I'm feeling lucky</n-button
+            >
+          </template>
+          Get random movies by a random actor
+        </n-tooltip>
       </n-grid-item>
       <n-grid-item>
         <n-tooltip placement="top-start" trigger="hover">
           <template #trigger>
             <n-button quaternary size="tiny" circle @click="resetFilters"
-              >♻️</n-button
+              >❌</n-button
             >
           </template>
           Reset the filters
