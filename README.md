@@ -19,17 +19,18 @@ Run Eslint:
 `npm run lint`
 
 ## Payload
+The payload is a JSON object.
 
 ```
-payload: {
+{
   "title": "",
   "actor": "Mark Hamill",
   "year": "",
   "genre": []
 }
 ```
-The payload is a JSON object. We could send these parameters to the "server" to get the result.
-For example, if we send the name `Mark Hamill`, the server will return the movie list that contains `Mark Hamill` in the actor.
+We could send these parameters to the "server" to get the result. We may send a GET request to the back-end if we have a real endpoint.
+For example, if we send the actor's name `Mark Hamill`, the "server" will return the movie list that contains `Mark Hamill` in the actor.
 
 ## Gif demo
 ![Alt Text](https://raw.githubusercontent.com/Killea/vue3movie/main/GIF_2022-6-23%2021-48-38.gif)
