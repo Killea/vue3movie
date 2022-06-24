@@ -32,4 +32,4 @@ The payload is a JSON object. We could send these parameters to the "server" to 
 For example, if we send the name `Mark Hamill`, the server will return the movie list that contains `Mark Hamill` in the actor.
 
 ## Gif demo
-![Alt Text](GIF_2022-6-23 21-48-38.gif.gif)
+![Alt Text](https://raw.githubusercontent.com/Killea/vue3movie/main/GIF_2022-6-23%2021-48-38.gif)
