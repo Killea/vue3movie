@@ -77,7 +77,7 @@ export const cardData: Array<cardDataType> = [
       {
         id: 2323412341244,
         name: "Andy Lanning",
-      }
+      },
     ],
     is_series: true,
     release_date: "2017-05-05T00:00:00.000000Z",

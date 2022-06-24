@@ -9,10 +9,14 @@
           <div class="text-info">{{ card.release_date.substring(0, 4) }}</div>
           <div class="text-info">{{ card.title }}</div>
           <div class="text-info">
-            Actors: {{ card.actors.map((i) => i.name).join(",") }}
+            Actors: {{ card.actors.map((i) => i.name).join(", ") }}
           </div>
           <div class="text-info">
             {{ `${card.is_series ? "Series" : "Non-series"}` }}
+          </div>
+
+          <div class="text-info">
+            {{ card.genre.map((i) => i.title).join(", ") }}
           </div>
         </div>
       </n-grid-item>
