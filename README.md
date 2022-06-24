@@ -1,6 +1,8 @@
 # vue3movie
 This is a demo project about Vue3, Composition API , TS, Jest, @testing-library/vue, ESlint
 
+It's developed on Node $14.18.1. An environment with Node version that is higher than 12.2.0 should work.
+
 Demo on codesandbox(run in dev mode!):
 https://v1lm3i.sse.codesandbox.io/
 
