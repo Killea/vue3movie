@@ -176,10 +176,7 @@ const getRandomInt = (max: number) => {
 };
 
 const getRandomMovies = async () => {
-  data.title = "";
-  data.actor = "";
-  data.year = "";
-  data.genre = [];
+  resetFilters();
   // get random movies by actor names automatically
   const dataIndex = getRandomInt(cardData.length);
   const actorIndex = getRandomInt(cardData[dataIndex].actors.length);
