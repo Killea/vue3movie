@@ -71,7 +71,7 @@
         <n-tooltip placement="top-start" trigger="hover">
           <template #trigger>
             <n-button quaternary size="tiny" circle @click="resetFilters"
-              >❌</n-button
+              >X</n-button
             >
           </template>
           Reset the filters
